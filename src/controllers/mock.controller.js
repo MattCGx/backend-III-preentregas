@@ -3,12 +3,14 @@ import { generatePetsMock } from '../utils/mockingPets.js';
 import { petsService, usersService } from '../services/index.js';
 
 export const mockPets = (req, res) => {
-    const pets = generatePetsMock(50); 
+    const petsQuantity = parseInt(req.query.quantity) || 50
+    const pets = generatePetsMock(petsQuantity); 
     res.send({ status: 'success', payload: pets });
   };
   
   export const mockUsers = (req, res) => {
-    const users = generateUsersMock(50); 
+    const usersQuantity = parseInt(req.query.quantity) || 50
+    const users = generateUsersMock(usersQuantity); 
     res.send({ status: 'success', payload: users });  };
   
   export const generateData = async (req, res) => {
