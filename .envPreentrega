@@ -1,0 +1,2 @@
+PORT=8080
+MONGO_URI=mongodb+srv://mattcontrerasg:bTElCdg96IZaQrd3@mattcgx.pwtewoj.mongodb.net/adoptback3mattcg?retryWrites=true&w=majority&appName=MattCgx
