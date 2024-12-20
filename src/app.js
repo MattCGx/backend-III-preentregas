@@ -23,5 +23,6 @@ const PORT = process.env.PORT|| 8080;
 app.use('/api/users', usersRouter);
 app.use('/api/pets', petsRouter);   
 app.use('/api/mocks', mocksRouter);
+app.use("/api/adoptions", adoptionsRouter);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
