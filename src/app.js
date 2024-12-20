@@ -5,6 +5,7 @@ import { initMongoDB }  from "./config/db.js";
 import usersRouter from './routes/users.router.js';
 import petsRouter from './routes/pets.router.js';
 import mocksRouter from './routes/mocks.router.js';
+import adoptionsRouter from "./routes/adoption.router.js";
 
 
 
