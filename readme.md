@@ -14,8 +14,13 @@
 
 - Dentro del router mocks.router.js, desarrollar un endpoint POST llamado /generateData que reciba los parámetros numéricos “users” y “pets” para generar e insertar en la base de datos la cantidad de registros indicados.
 
-- Comprobar dichos registros insertados mediante los servicios GET de users y pets
+- Comprobar dichos registros insertados mediante los servicios GET de users y pets.
 
+- Realizar Test de los endpoints de Adoptions con supertest, mocha y Chai.
+
+- Documentar el modulo Users con Swagger
+
+- Crear una imagen de docker del proyecto y subirla a Dockerhub.
 -----------
 
 ### Para resolver la preentrega se generan los endpoints:
@@ -33,6 +38,9 @@
 ### El servidor se incia con:
 - `npm run start`
 
+### La imagen de Docker se llama con:
+
+- `docker pull mattcg/pets`
 
 -----------
 

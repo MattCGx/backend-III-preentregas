@@ -1,5 +1,5 @@
 # Utilizar una imagen base oficial de Node.js
-FROM node:16
+FROM node:20
 
 # Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
@@ -9,9 +9,6 @@ COPY package*.json ./
 
 # Instalar las dependencias
 RUN npm install
-
-# Reconstruir bcrypt para el entorno Docker
-RUN npm rebuild bcrypt --build-from-source
 
 # Copiar el resto de los archivos del proyecto al contenedor
 COPY . .
