@@ -27,3 +27,5 @@ app.use('/api/mocks', mocksRouter);
 app.use("/api/adoptions", adoptionsRouter);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+export default app;
