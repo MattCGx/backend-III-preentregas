@@ -38,6 +38,10 @@
 ### El servidor se incia con:
 - `npm run start`
 
+### Enlace a la imagen de dockerhub:
+
+- [Imagen en Dockerhub](https://hub.docker.com/repository/docker/mattcg/pets/general)
+
 ### La imagen de Docker se llama con:
 
 - `docker pull mattcg/pets`
@@ -89,3 +93,23 @@ _________________
 ![baseUsers](./src/public/mongoUsers.png)
 
 _________________
+
+## Capturas de test ejecutados en los endpoints de Api/Adoptions/
+
+- Test Adoptions
+
+![Test Adoptions](./src/public/test%20adoptions.png)
+
+## Capturas de documentación de swagger sobre el modulo de Usuarios
+
+- Documentación de Usuarios: 
+
+Acceder mediante el enlace: `http://localhost:8080/api-docs/`
+
+![Swagger](./src/public/documentacion%20de%20users%20con%20swagger.png)
+
+## Capturas de imagen ejecutandose en Docker
+
+- Imagen de docker desktop: 
+
+![Docker Desktop](./src/public/imagen%20ejecutandose%20en%20docker.png)
