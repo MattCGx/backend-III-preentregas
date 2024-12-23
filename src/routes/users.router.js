@@ -43,7 +43,7 @@ router.get('/', usersController.getAllUsers);
 
 /**
  * @swagger
- * /api/users:
+ * /users:
  *   post:
  *     summary: Crear un nuevo usuario
  *     tags: [Usuarios]
